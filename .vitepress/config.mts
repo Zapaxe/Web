@@ -74,7 +74,7 @@ export default defineConfig({
           },
         ],
       },
-      { text: "Blog", link: "/blog/release-v0.1.0" },
+      { text: "Blog", link: "/blog/release-v0.2.0" },
       { text: "FAQ", link: "/faq" },
     ],
 

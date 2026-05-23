@@ -49,7 +49,7 @@ That's right. You read it correctly. **Rux 0.1.0 is out**, and it compiles code.
 Rux 0.1.0 can compile a `Main` function that performs arithmetic operations and returns a result. That's the headline feature. You can add, subtract, multiply, and divide numbers. You could, in theory, compute the answer to the universe — as long as the answer is an integer and you don't need to print it.
 
 ```rux
-func Main() -> int32 {
+func Main() -> int {
     return (6 * 7) + (100 - 58);
 }
 ```
@@ -107,7 +107,7 @@ code .
 This scaffolds a new Rux project with everything you need. Open `Src/Main.rux` and give your `Main` function something to do:
 
 ```rux
-func Main() -> int32 {
+func Main() -> int {
     return 2 + 2;
 }
 ```
