@@ -22,36 +22,36 @@ hero:
 features:
   - icon:
       src: /icons/rocket.svg
-    title: Compiled for Speed
-    details: Rux compiles directly to native machine code — no virtual machine, no interpreter, no hidden runtime. Output binaries are lean and self-contained, running on Windows with no additional frameworks or redistributables required.
+    title: Native Performance
+    details: Rux compiles to lean, self-contained native binaries — no virtual machines, no interpreters, no garbage collector pauses. Ship code that runs as fast as the hardware allows.
   - icon:
       src: /icons/block.svg
-    title: Strongly Typed
-    details: No implicit conversions, no hidden boxing. Built-in types span integers from 8-bits to 512-bits, multi-width characters (char8, char16, char32), slices, fixed arrays, tuples, structs, enums, and unions — all resolved at compile time.
+    title: Bulletproof Type System
+    details: No implicit conversions and surprises. Primitive data types from 8 to 512 bits, multi-width Unicode characters, slices, tuples, structs, enums, and unions — all resolved at compile time, zero runtime cost.
   - icon:
       src: /icons/shield.svg
-    title: Safety Without Sacrifice
-    details: Memory safety is built-in, not bolted on. Rux distinguishes references (&T) and pointers (*T) clearly, allowing both safe high-level code and low-level control. Unlike C++, you don’t need manual discipline.
+    title: Memory Safety
+    details: References (&T) and pointers (*T) are first-class and distinct. Get the safety of high-level code and the power of low-level control — without the discipline tax or the complexity.
   - icon:
       src: /icons/dna.svg
-    title: Multi-Paradigm by Design
-    details: Rux blends procedural, functional, and object-oriented paradigms seamlessly. You can write clean imperative code, use higher-order functions, or design modular, data-driven systems — all with zero runtime overhead.
+    title: Multi-Paradigm Design
+    details: Write imperative code, compose with higher-order functions, or model with structs and interfaces — whatever fits the problem. All paradigms, zero runtime overhead, no forced style.
   - icon:
       src: /icons/binary.svg
-    title: Low-Level Control
-    details: Raw pointer arithmetic, inline assembly, sizeof, unions for memory reinterpretation, and direct FFI and Windows API — Rux gives you full hardware access when you need it. The type system stays in control; you stay in charge.
+    title: Full Hardware Access
+    details: Inline assembly, raw pointer arithmetic, union-based memory reinterpretation, direct foreign function interface. When you need the metal, Rux gets out of the way.
   - icon:
       src: /icons/code.svg
-    title: Simple Syntax
-    details: Rux’s syntax is minimal yet expressive — designed to read like pseudocode and compile like assembly. No clutter, no hidden conversions, no unnecessary ceremony. Readable, concise, and fully type-safe.
+    title: Clean Syntax
+    details: Reads like pseudocode and compiles like assembly. No ceremony, no hidden conversions, no boilerplate. Code that looks right usually is right.
   - icon:
       src: /icons/fast.svg
-    title: Fast Compilation and Tooling
-    details: Compile at up to 150K LOC under 20 MB of RAM. The entire toolchain — compiler, package manager, formatter, and test runner — ships as a single binary under 3 MB with zero dependencies. One download, everything included.
+    title: Instant Toolchain
+    details: The entire toolchain — compiler, package manager, formatter, and test runner — ships as a small single binary with zero dependencies. One download, everything included.
   - icon:
       src: /icons/platform.svg
     title: Cross-Platform
-    details: Rux isn’t just for systems programming. It’s equally comfortable writing CLI tools, servers, games, or libraries. Compile to Windows, Linux, macOS, and more — all from the same clean source code.
+    details: From command line tools to game engines and servers — Rux handles it all. Target Windows, Linux, macOS, and more from the same clean source code.
 
 # Meta property
 head:

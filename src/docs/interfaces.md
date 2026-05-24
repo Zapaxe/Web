@@ -30,7 +30,7 @@ extend Circle {
 }
 
 extend Circle: Display {
-    func Print(self) -> String {
+    func ToString(self) -> String {
         return Format("Circle: radius = {}", self.radius);
     }
 }
