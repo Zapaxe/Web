@@ -17,11 +17,11 @@ code .
 Insert this snippet into the `Main.rux` file
 
 ```rux
-import System::Print;
+import Std::Io::Print;
 
 func Main() -> int {
-	Print("Hello World!");
-	return 0;
+    Print("Hello, World!\n");
+    return 0;
 }
 ```
 
