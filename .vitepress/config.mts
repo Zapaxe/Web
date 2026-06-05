@@ -23,6 +23,7 @@ export default defineConfig({
     "Fast, compiled, strongly typed, multi-paradigm, general-purpose",
   srcDir: "./src",
   cleanUrls: true,
+  base: "/Web",
   lastUpdated: true,
   sitemap: { hostname: "https://rux-lang.dev" },
 
